@@ -1,0 +1,76 @@
+# #################### #
+#  Project-Specific  #
+# #################### #
+
+# 忽略所有用户提供的音乐和生成的视频内容。
+# 这是项目的核心数据，不应纳入版本控制。
+Music/
+Movie/
+soundfont.sf2
+
+
+# ################## #
+#  Python-related  #
+# ################## #
+
+# 虚拟环境
+venv/
+env/
+*.venv
+*.env
+
+# Python 缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 打包和分发目录
+build/
+dist/
+*.egg-info/
+wheels/
+sdist/
+
+
+# ################# #
+#  IDE / Editors  #
+# ################# #
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains (PyCharm, etc.)
+.idea/
+
+# Visual Studio
+.vs/
+
+
+# ##################### #
+#  OS-generated files   #
+# ##################### #
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+
+# ##################### #
+#  Temporary & Logs   #
+# ##################### #
+
+# 日志文件
+*.log
+logs/
+
+# 程序生成的临时文件（以防万一）
+_temp_*
+_clipboard_*
+*.tmp
